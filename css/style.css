@@ -33,7 +33,7 @@ a.button {
 /* Top banner */
 
 .top-banner {
-    background-image: url("/media/img/Rectangle 1.png");
+    background-image: url("media/img/Rectangle 1.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 70px;
