@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+a.button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(229 69 41);
+    padding: 11px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* Top banner */
+
+.top-banner {
+    background-image: url("/media/img/Rectangle 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+
+.transparent {
+    background-image: linear-gradient(165deg, rgb(0 0 0 / 84%), transparent);
+}
+
+.top-content {
+    color: white;
+    padding: 169px 0px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.under-top-content-left {
+    width: 40%;
+}
+
+.under-top-content-left h1 {
+    margin-bottom: 20px;
+}
+
+.under-top-content-left p {
+    margin-bottom: 48px;
+}
+
+.under-top-content-right {
+    width: 60%;
+}
+
+/* Depends on donation */
+
+.depends-on-donation {
+    margin-bottom: 70px;
+}
+
+.depends-content {
+    width: 70%;
+    margin-left: 18%;
+}
+
+.under-depends-content {
+    width: 40%;
+    padding: 2%;
+}
+
+.under-depends-content-right {
+    width: 40%;
+    padding: 2%;
+    position: relative;
+}
+
+.under-depends-content h2 {
+    margin-top: 33px;
+    margin-bottom: 40px;
+}
+
+.under-depends-content p {
+    margin-bottom: 40px;
+}
+
+.position-absolute {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+/* Survibe */
+.survibe {
+    margin-bottom: 70px;
+}
+
+.survibe-content {
+    width: 70%;
+    margin-left: 18%;
+}
+
+.under-survibe {
+    width: 40%;
+    padding-left: 2%;
+}
+
+.under-survibe h2 {
+    margin-top: 33px;
+    margin-bottom: 40px;
+}
+
+.under-survibe p {
+    margin-bottom: 40px;
+}
+
+/* Their Lives */
+.their-lives {
+    margin-bottom: 70px;
+}
+
+.their-lives>h2 {
+    text-align: center;
+    width: 32%;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.their-lives>p {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.their-lives-content {
+    width: 55%;
+    margin: 0 auto !important;
+    margin-left: 18%;
+    margin-bottom: -25px !important;
+}
+
+.under-their-lives {
+    width: 45%;
+    padding: 2%;
+    margin: 2% auto;
+    background-color: #fadee1;
+}
+
+.float-left {
+    float: left;
+}
+
+.sub-under-their-lives {
+    margin-left: 56px;
+    padding-left: 12px;
+}
+
+/* Gallary */
+.gallary {
+    margin-bottom: 70px;
+}
+
+.gallary-content {
+    width: 70%;
+    margin-left: 18%;
+}
+
+.under-gallary {
+    width: 40%;
+    margin-right: 2%;
+}
+
+.under-gallary img {
+    width: 100%;
+}
+
+/* Extend hand */
+.extend-hand {
+    margin-bottom: 100px;
+}
+
+.extend-content {}
+
+.extend-hand>h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.extend-hand>p {
+    text-align: center;
+}
+
+.extend-content {
+    width: 70%;
+    margin-left: 18%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.under-extend {
+    width: 40%;
+    margin-right: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.under-extend img {
+    width: 100%;
+}
+
+.inside-under-extend {
+    padding: 34px;
+}
+
+.inside-under-extend h3,
+p {
+    margin-bottom: 10px;
+}
+
+.inside-under-extend p {
+    margin-bottom: 35px;
+}
+
+.inside-under-extend a {
+    color: tomato;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 50px 0;
+}
+
+footer h2 {
+    color: red;
+}
+
+footer p {
+    color: white;
+}
